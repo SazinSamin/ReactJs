@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 
 const name = 'Orca Solutions';
 const intro = 'Software solutions';
