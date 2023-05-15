@@ -1,30 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 
-const name = 'Orca Solutions';
-const intro = 'A software solution is typically custom-built or configured to solve a specific customer problem. ';
 const date = new Date();
-const currentDate = date.getDate();
-const currentMonth = date.getMonth();
-const currentYear = date.getFullYear();
 
-const style = {
-  color: "red", 
-  fontSize: "2rem",
-  textAlign: "center",
+const appName = "Todo App";
+const cardName = "Learn React";
+const cardDesc = "React is frontend development framework";
+const cardDate = `${date.getDate()}/${date.getMonth()}/${date.getFullYear()}`;
+
+
+// Functional Component
+function Card() {
+  return <div className='card'>
+    <h2>{cardName}</h2>
+    <h3>{cardDesc}</h3>
+    <footer>{cardDate}</footer>
+  </div>
 }
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <div>
-    {/*inline styling*/}
-    <h1 style={{color: "blue", textAlign: "center"}}>{name}</h1>
-    {/*inline styling from object*/}
-    <h2 style={style}>{intro}</h2>
-    {/*from public folder styling sheet*/}
-    <h2 className='dateStyle'>{currentDate + "." + currentMonth + "." + currentYear}</h2>
-    {/*style from src folder*/}
-    <h3 className='websiteStyle'>orcasolution.com</h3>
+  <div className='div'>
+    <h1 className='header'>{appName}</h1>
+    <Card />
+    <Card />
   </div>
 );

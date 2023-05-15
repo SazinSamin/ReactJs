@@ -1,5 +1,13 @@
-.dateStyle{
-    color: green;
-    background-color: aqua;
+.header{
     text-align: center;
+    background-color: green;
+    font-size: 2vw;
+}
+
+.card{
+    background-color: rgb(49, 159, 179);
+    border-radius: 10vw;
+    text-align: center;
+    padding: 1%;
+    margin: 1%;
 }
