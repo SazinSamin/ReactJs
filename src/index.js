@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 
 const name = 'Orca Solutions';
-const intro = 'IT & Software solutions';
+const intro = 'Software solutions';
 const date = new Date();
 const currentDate = date.getDate();
 const currentMonth = date.getMonth();
