@@ -1,12 +1,13 @@
-import Card from "./componenets/Card"
+import Card from "./componenets/Card";
+import data from "./data.json";
 
 
 function App() {
     return <div>
         <h1 className="header">Todo App</h1>
-        {/* send props like attribut */}
-        <Card title="Read book" desc="To gain knowledge"/>
-        <Card title= "Watch a movie" desc="Learn a new language" />
+        {/* Mapping data to components */}
+        {data.map(item => <Card key={item.id} title={item.title} author={item.author} created_at={item.created_at}/>)}
+        {/* Each child in a list should have a unique "key" prop. */}
     </div>
 }
 
