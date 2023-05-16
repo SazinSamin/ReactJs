@@ -1,9 +1,8 @@
-import Apple from "./componenets/Card";
-
+import Counter from "./componenets/Counter";
 
 function App() {
     return <div>
-        <Apple />
+        <Counter />
     </div>
 }
 
