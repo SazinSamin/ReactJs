@@ -1,14 +1,10 @@
-import React, {Component} from "react";
+import { DiEnvato } from "react-icons/di";
 
-// Class component
-class Card extends Component {
-  render () {
-    return <div>
-      {/* Access props in class component using this */}
-      <h2>{this.props.title}</h2>
-      <h2>{this.props.desc}</h2>
+
+export default function Apple () {
+  return (
+    <div className="apple">
+      <DiEnvato />
     </div>
-  }
+  )
 }
-
-export default Card;
