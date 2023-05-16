@@ -1,13 +1,14 @@
-// Functional Component
-function Card(props) {
-  // recieve props and destructured the object to get the values
-  const {title, author, created_at} = props;
-  return <div className='card'>
-    <h2>{title}</h2>
-    <h3>{author}</h3>
-    <footer>{created_at}</footer>
-  </div>
-}
+import React, {Component} from "react";
 
+// Class component
+class Card extends Component {
+  render () {
+    return <div>
+      {/* Access props in class component using this */}
+      <h2>{this.props.title}</h2>
+      <h2>{this.props.desc}</h2>
+    </div>
+  }
+}
 
 export default Card;
