@@ -1,9 +1,7 @@
-import Counter from "./componenets/Counter";
+import RenderingSelection from './CONDITIONAL_RENDERING/Rendering_selection';
 
-function App() {
+export default function App() {
     return <div>
-        <Counter />
+        <RenderingSelection />
     </div>
 }
-
-export default App;
