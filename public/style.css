@@ -1,13 +1,13 @@
 body{
     background-color: grey;
     color: white;
+    text-align: center;
 }
 
 button {
     background-color: rgb(33, 114, 123);
     color: white;
-    width: 5vw;
-    font-size: 3vw;
+    font-size: 2vw;
     font-weight: bold;
     border-radius: 1vw;
     margin-right: 1vw;
