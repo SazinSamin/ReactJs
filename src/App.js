@@ -1,7 +1,8 @@
-import RenderingSelection from './CONDITIONAL_RENDERING/Rendering_selection';
+import EVENT_HANDLER from "./EVENT_HANDLING"
+
 
 export default function App() {
     return <div>
-        <RenderingSelection />
+        <EVENT_HANDLER />
     </div>
 }
