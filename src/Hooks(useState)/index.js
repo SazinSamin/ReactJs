@@ -1,14 +1,13 @@
 import React, { useState } from "react"
 
-// using useState Hooks we can change the state of functional component
-// like in class component
+
 export default function Counter () {
 
-  // first one is currentstate, next the a function to change the state
   const [count, setCount] = useState(0);
 
   const handleIncrement = () => {
-    setCount(count + 1);
+    // get the preivous state to count the current state
+    setCount((prevCount) => prevCount + 3);
   }
 
   return <div>
