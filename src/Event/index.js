@@ -9,7 +9,9 @@ export default function Event_bubbling () {
     alert("Click parent")
   } 
 
-  const handleClickChild = () => {
+  const handleClickChild = (event) => {
+    // stop event progate from child to parent
+    event.stopPropagation();
     alert("Click child")
   }
 
