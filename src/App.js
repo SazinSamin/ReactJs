@@ -1,7 +1,7 @@
-import Counter from "./Hooks(useState)"
+import EVENT_HANDLER from './EVENT_HANDLING/index'
 
 export default function App() {
     return <div>
-        <Counter />
+        <EVENT_HANDLER />
     </div>
 }
