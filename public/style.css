@@ -22,3 +22,9 @@ button:disabled {
 p{
     font-size: 5vw;
 }
+
+
+.parentDiv{
+    background-color: rgb(55, 55, 135);
+    height: 20%;
+}

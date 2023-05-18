@@ -1,7 +1,7 @@
-import Counter from "./Hooks(useState)"
+import Event_bubbling from "./Event"
 
 export default function App() {
     return <div>
-        <Counter />
+        <Event_bubbling />
     </div>
 }
