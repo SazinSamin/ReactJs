@@ -1,2 +1,2 @@
 # ReactJs  
-## EVENT HANDLING
+## Event handler binding

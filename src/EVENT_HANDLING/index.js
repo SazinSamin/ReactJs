@@ -10,7 +10,11 @@ export default class EVENT_HANDLER extends Component {
     }
   }
 
-  handleMessage = (e) => {
+  // If we use normal function instead of arrow function
+  // we have to bind the this
+  // read the reason
+  // https://github.com/SazinSamin/Samin_Reading_Room/blob/main/Javascript/Good_Practice/1117_this_in_arrow_function.js
+  handleMessage (e) {
     this.setState({
       outputMessage : e.target.value
     })
@@ -20,7 +24,8 @@ export default class EVENT_HANDLER extends Component {
   render() {
     return <div>
       <h1>Welcome</h1>
-      <input type="text" onChange={this.handleMessage}></input>
+      {/* We bind this with the function */}
+      <input type="text" onChange={this.handleMessage.bind(this)}></input>
       <p>{this.state.outputMessage}</p>
     </div>;
   }
