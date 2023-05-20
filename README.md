@@ -1,2 +1,2 @@
 # ReactJs  
-## Controlled Component(Form)
+## Controlled Component(Object)

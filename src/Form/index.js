@@ -1,27 +1,18 @@
 import React, { Component, useState } from "react";
 
 export default function Form() {
+  const [user, setUser] = useState({
+    name: "please enter your name",
+    email: "@gmai.com",
+    password: "***",
+  });
 
-  const [name, setName] = useState('Please enter a name');
-  const [email, setEmail] = useState('23@gmail.com');
-  const [password, setPassword] = useState('***');
-
-  const handleName = (e) => {
-    setName(e.target.value)
-  };
-  const handleEmail = (e) => {
-    setEmail(e.target.value)
-  };
-  const handlePassword = (e) => {
-    setPassword(e.target.value)
+  const handleChanage = (e) => {
+    setUser({ ...user, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = (e) => {
-    console.log("Form is submitted");
-    const userDetails = {
-      name, email, password
-    }
-    console.log(userDetails);
+    console.log(user);
     e.preventDefault();
   };
 
@@ -35,8 +26,8 @@ export default function Form() {
             type="text"
             name="name"
             id="name"
-            value={name}
-            onChange={handleName}
+            value={user.name}
+            onChange={handleChanage}
           ></input>
         </div>
         <div>
@@ -45,8 +36,8 @@ export default function Form() {
             type="email"
             name="email"
             id="email"
-            value={email}
-            onChange={handleEmail}
+            value={user.email}
+            onChange={handleChanage}
           ></input>
         </div>
         <div>
@@ -55,8 +46,8 @@ export default function Form() {
             type="password"
             name="password"
             id="password"
-            value={password}
-            onChange={handlePassword}
+            value={user.password}
+            onChange={handleChanage}
           ></input>
         </div>
         <div>
