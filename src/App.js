@@ -1,7 +1,7 @@
-import Form from "./Form"
+import Counter from "./Counter"
 
 export default function App() {
     return <div>
-        <Form />
+        <Counter />
     </div>
 }

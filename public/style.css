@@ -1,22 +1,28 @@
 body{
-    background-color: rgb(40, 69, 76);
-    color: white;
+    align-items: center;
+    align-content: center;
+}
+
+.main{
+    background-color: cadetblue;
+    align-items: center;
     text-align: center;
 }
 
 button {
     background-color: rgb(57, 139, 30);
     color: white;
-    font-size: 2vw;
+    font-size: 3vw;
     font-weight: bold;
-    border-radius: 1vw;
+    border-radius: 50vw;
     margin-right: 1vw;
     padding: 0.5vw;
+    width: 10vw;
 }
 
 button:disabled {
     background-color: white;
-    color: black;
+    color: grey;
 }
 
 p{
