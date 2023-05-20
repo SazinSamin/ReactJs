@@ -1,17 +1,17 @@
 body{
-    background-color: grey;
+    background-color: rgb(40, 69, 76);
     color: white;
     text-align: center;
 }
 
 button {
-    background-color: rgb(33, 114, 123);
+    background-color: rgb(57, 139, 30);
     color: white;
     font-size: 2vw;
     font-weight: bold;
     border-radius: 1vw;
     margin-right: 1vw;
-    padding: 1vw;
+    padding: 0.5vw;
 }
 
 button:disabled {
@@ -27,4 +27,8 @@ p{
 .parentDiv{
     background-color: rgb(55, 55, 135);
     height: 20%;
+}
+
+form div{
+    margin: 1vw;
 }

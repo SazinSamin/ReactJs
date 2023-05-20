@@ -1,7 +1,7 @@
-import Event_bubbling from "./Event"
+import Form from "./Form"
 
 export default function App() {
     return <div>
-        <Event_bubbling />
+        <Form />
     </div>
 }
