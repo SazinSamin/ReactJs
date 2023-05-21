@@ -1,7 +1,7 @@
-import Counter from "./Counter"
+import Statelifting from "./State_lifiting/Parent"
 
 export default function App() {
     return <div>
-        <Counter />
+        <Statelifting />
     </div>
 }

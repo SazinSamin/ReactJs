@@ -1,7 +1,10 @@
 body{
     align-items: center;
     align-content: center;
+    background-color: cadetblue;
 }
+
+
 
 .main{
     background-color: cadetblue;
