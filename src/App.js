@@ -1,7 +1,8 @@
-import Statelifting from "./State_lifiting/Parent"
+import SignUpForm from "./formik/Form";
+
 
 export default function App() {
     return <div>
-        <Statelifting />
+        <SignUpForm />
     </div>
 }

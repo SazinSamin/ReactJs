@@ -1,25 +1,19 @@
 body{
-    align-items: center;
-    align-content: center;
-    background-color: cadetblue;
-}
-
-
-
-.main{
-    background-color: cadetblue;
-    align-items: center;
+    background-color: grey;
     text-align: center;
+    color: white;
 }
+
+
 
 button {
     background-color: rgb(57, 139, 30);
     color: white;
-    font-size: 3vw;
+    font-size: 1vw;
     font-weight: bold;
     border-radius: 50vw;
     margin-right: 1vw;
-    padding: 0.5vw;
+    padding: 0.2vw;
     width: 10vw;
 }
 
@@ -29,15 +23,6 @@ button:disabled {
 }
 
 p{
-    font-size: 5vw;
+    font-size: 2vw;
 }
 
-
-.parentDiv{
-    background-color: rgb(55, 55, 135);
-    height: 20%;
-}
-
-form div{
-    margin: 1vw;
-}
