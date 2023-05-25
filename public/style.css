@@ -7,7 +7,7 @@ body{
 
 
 button {
-    background-image: linear-gradient(grey, green, green);
+    background-color: rgb(57, 139, 30);
     color: white;
     font-size: 1vw;
     font-weight: bold;
@@ -29,8 +29,4 @@ p{
 
 span{
     color: rgb(145, 63, 76);
-}
-
-p{
-    background-color: rgb(59, 53, 53);
 }
