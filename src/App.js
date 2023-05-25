@@ -1,8 +1,9 @@
-import SignUpForm from "./formik/Form";
+import UseEffectExample from "./useEffect/useEffect";
+
 
 
 export default function App() {
     return <div>
-        <SignUpForm />
+        <UseEffectExample />
     </div>
 }
