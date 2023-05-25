@@ -1,4 +1,4 @@
-import UseEffectExample from "./useEffect/useEffect";
+import UseEffectExample from "./customeHook/customHook";
 
 
 
