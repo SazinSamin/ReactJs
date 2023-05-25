@@ -1,8 +1,8 @@
-import SignUpForm from "./formik/Form";
+import Toggle from "./Toggling/Toggle"
 
 
 export default function App() {
     return <div>
-        <SignUpForm />
+        <Toggle />
     </div>
 }
