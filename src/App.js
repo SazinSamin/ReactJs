@@ -1,8 +1,8 @@
-import Toggle from "./Toggling/Toggle"
+import UseEffectExample from "./useEffect/useEffect";
 
 
 export default function App() {
     return <div>
-        <Toggle />
+        <UseEffectExample />
     </div>
 }
