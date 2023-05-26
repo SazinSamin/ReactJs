@@ -1,9 +1,9 @@
-import UseEffectExample from "./customeHook/customHook";
+import ToastNotification from "./Toast/ToastNotification";
 
 
 
 export default function App() {
     return <div>
-        <UseEffectExample />
+        <ToastNotification />
     </div>
 }
