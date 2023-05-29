@@ -1,9 +1,9 @@
-import Users from "./Components/Users";
+import LifeCycle from "./LifeCycle/LifeCycle_methods";
 
 
 
 export default function App() {
     return <div>
-        <Users />
+        <LifeCycle />
     </div>
 }
