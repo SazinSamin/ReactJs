@@ -1,10 +1,9 @@
-import {FragmentTest, FragmentTest2} from "./Fragment";
+import Users from "./Components/Users";
 
 
 
 export default function App() {
     return <div>
-        <FragmentTest />
-        <FragmentTest2 />
+        <Users />
     </div>
 }
