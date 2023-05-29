@@ -1,9 +1,10 @@
-import DynamicStyling from "./Dynamic_styling/Dynamic_styling";
+import {FragmentTest, FragmentTest2} from "./Fragment";
 
 
 
 export default function App() {
     return <div>
-        <DynamicStyling />
+        <FragmentTest />
+        <FragmentTest2 />
     </div>
 }
