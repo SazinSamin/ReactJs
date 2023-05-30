@@ -1,9 +1,10 @@
-import LifeCycle from "./LifeCycle/LifeCycle_methods";
+import Ref from "./ref/ref";
+
 
 
 
 export default function App() {
     return <div>
-        <LifeCycle />
+        <Ref />
     </div>
 }
