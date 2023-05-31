@@ -1,10 +1,8 @@
-import Ref from "./useRef/userRef";
-
-
+import UseReducerExample from "./useReducer/userReducer";
 
 
 export default function App() {
     return <div>
-        <Ref />
+        <UseReducerExample />
     </div>
 }
