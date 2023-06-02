@@ -31,3 +31,27 @@ p{
 span{
     color: rgb(145, 63, 76);
 }
+
+nav {
+    height: 4vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1vw;
+}
+
+.nav-link {
+    color: white;
+    margin: 1rem;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: aqua;
+    transition: 1200ms;
+}
+
+nav .active{
+    color: aquamarine;
+}
