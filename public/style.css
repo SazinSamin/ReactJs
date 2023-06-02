@@ -55,3 +55,24 @@ nav {
 nav .active{
     color: aquamarine;
 }
+
+Link {
+    color: greenyellow;
+}
+
+.blog{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article {
+    background-color: green;
+    width: 20vw;
+    padding: 0.5vw;
+    margin: 1vw;
+    border-radius: 1vw;
+}
+
+.article p {
+    font-size: 1vw;
+}
