@@ -6,4 +6,5 @@ useRef
 useReducer  
 useContext  
 useParam  
-useLocation
+useLocation  
+useSearchParams
