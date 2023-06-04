@@ -1,0 +1,17 @@
+.Cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.Card {
+  background-color: green;
+  margin: 1vw;
+}
+
+.Card h1 {
+  font-size: 3vw;
+}
+
+.Card h3 {
+  font-size: 1vw;
+}
