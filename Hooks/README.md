@@ -8,3 +8,5 @@ useContext
 useParam  
 useLocation  
 useSearchParams
+useCallback  
+useMemo
