@@ -1,36 +1,31 @@
-import { useCallback, useState } from "react";
-import HomePage from "./pages/HomePage";
+import { useMemo } from "react";
+import { useState } from "react"
 
 
 export default function App() {
 
   const [count, setCount] = useState(0);
-  const [toggle, setToggle] = useState(false);
 
-  const handleClick = () => {
-    setCount(prev =>  prev + 1);
-  }
 
-  // useCallback function for skipping re-render when memoized function 
-  // has callback function
-  // As js always return new function
+  // cache the result of expensive calculation, 
+  // The calculation only trigger in initial rendering
+  // and React will cache the value
+  // So until dependencies isn't change React will return the cache value
+  const result = useMemo(() => {
+    let sum = 0;
+    for(let i = 0; i < 1000000000; i++) {
+      sum += i;
+    }
+    return sum;
+  }, []);
 
-  // useCallback recieve two arguments(a fn & dependency states)
-  const handleCountChangeFromChidlren = useCallback(() => {
-    setCount(prev =>  prev + 1);
-  }, [count]);
-  // here the second parameter recieve states(here count) which change
-  // also bring change in function, otherwise not.
 
   return <div>
-    <h2>{toggle ? "true" : "false"}</h2>
+    <h1>useMemo Example</h1>
+    <h2>Result: {result}</h2>
+    <h2>{count}</h2>
     <button onClick={() => {
-      setToggle(!toggle);
-    }}>Toggle</button>
-    {console.log("App rendered")}
-    <h1>{count}</h1>
-    <button onClick={handleClick}>+</button>
-    <HomePage handleIncrement={handleCountChangeFromChidlren}/>
-
+      setCount(prev => prev + 1);
+    }}>+</button>
   </div>
 }
