@@ -1,12 +1,13 @@
-import { Helmet } from "react-helmet"
+import { memo } from "react";
 
-const HomePage = ({title}) => {
+// use memo to skip rendering the same component again & again
+// if component itself or it's props element is not changed
+
+const HomePage = memo(() => {
   return <div>
-    <Helmet>
-      <title>{title}</title>
-    </Helmet>
+    {console.log("homepage rendered")}
     <h1>This is HomePage</h1>
   </div>
 }
-
+)
 export default HomePage;
