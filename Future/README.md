@@ -1,1 +1,2 @@
-usereducer vs redux
+usereducer vs redux  
+Composition vs Inheritance
