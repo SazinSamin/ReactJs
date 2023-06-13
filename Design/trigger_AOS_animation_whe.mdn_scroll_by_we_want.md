@@ -1,3 +1,4 @@
+From ChatGPT
 // To trigger the animation when only a specific section is visible on the website, you can use the Intersection Observer API. 
 // This API allows you to detect when an element enters or exits the viewport.Here's an example of how you can modify your code
 // to trigger the AOS animation when the section becomes visible:
