@@ -1,78 +1,14 @@
-body{
-    background-color: grey;
+body {
+    background-color: rgb(12, 91, 12);
+    color: white;
     text-align: center;
-    color: white;
+
+
 }
 
-
-
-
-button {
-    background-color: rgb(57, 139, 30);
-    color: white;
-    font-size: 1vw;
-    font-weight: bold;
-    border-radius: 50vw;
-    margin-right: 1vw;
-    padding: 0.2vw;
-    width: 10vw;
-}
-
-button:disabled {
-    background-color: white;
-    color: grey;
-}
-
-p{
-    font-size: 2vw;
-}
-
-
-span{
-    color: rgb(145, 63, 76);
-}
-
-nav {
-    height: 4vw;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 1vw;
-}
-
-.nav-link {
-    color: white;
-    margin: 1rem;
-    text-decoration: none;
-}
-
-.nav-link:hover{
-    color: aqua;
-    transition: 1200ms;
-}
-
-nav .active{
-    color: aquamarine;
-}
-
-Link {
-    color: greenyellow;
-}
-
-.blog{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.article {
-    background-color: green;
-    width: 20vw;
-    padding: 0.5vw;
-    margin: 1vw;
-    border-radius: 1vw;
-}
-
-.article p {
-    font-size: 1vw;
+div {
+    background-color: rgb(14, 152, 120);
+    height: 15vw;
+    width: 15vw;
+    margin: 2vw;
 }
