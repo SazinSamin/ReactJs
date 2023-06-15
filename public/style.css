@@ -2,13 +2,5 @@ body {
     background-color: rgb(12, 91, 12);
     color: white;
     text-align: center;
-
-
 }
 
-div {
-    background-color: rgb(14, 152, 120);
-    height: 15vw;
-    width: 15vw;
-    margin: 2vw;
-}
